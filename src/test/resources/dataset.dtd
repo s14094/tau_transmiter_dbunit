@@ -1,0 +1,9 @@
+<!ELEMENT dataset (transmiter)>
+        <!ELEMENT transmiter EMPTY>
+        <!ATTLIST transmiter
+                id CDATA #REQUIRED
+                name CDATA #REQUIRED
+                model CDATA #IMPLIED
+                code CDATA #IMPLIED
+                description CDATA #IMPLIED
+                >
